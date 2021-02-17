@@ -1,0 +1,105 @@
+*{   
+    align-items: center;
+}
+        .jambutron{
+            padding: 40px 4px 40px 4px;
+            background-color:rgba(0, 238, 255, 0.836)
+        }
+        h2{
+            text-align: center;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+        img{
+            width: 100px;
+            ;
+        }
+
+
+.nav{
+   float:right;
+   list-style: none;
+   margin-top: 10px;
+}
+.nav li{
+    display: inline-block;
+} 
+.nav li a{
+    color:#fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 1.5rem;
+
+}
+.nav li a:hover{
+    background:transparent;
+    color: #333;
+}
+.quote{
+    font-size: 2rem;
+    margin-top: ;
+    margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+.container{
+    display: flex;
+    align-items: center;
+    
+    transform: translate(15%,20%);
+}
+.slider{
+    width:1000px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    justify-content: center;
+
+}
+.mySlides{
+    width: 300px;
+    flex-shrink: 0;
+    height: 100%;
+}
+.para{
+    margin-top: 100px;
+    justify-content:center;
+    /* columns:20px 2; */
+    width:1200px;
+    height: 50px;
+    padding: 40px ;
+    transform: translate(5%,-5%);
+}
+footer {
+    text-align: center;
+    padding: 0px;
+    width:1200px;
+    background-color: rgba(0, 238, 255, 0.836);
+    color: white;
+    /* height: 00px; */
+    align-content: center;
+    transform: translate(10%,10%);
+  }
+  footer p{
+      font-size: 15px;
+      font-family: cursive;
+      /* display: inline; */
+  }
+  #ourteam{
+      color: black; padding-top: 20px;
+  }
+
+  .fr{
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      margin-left: 450px;
+  }
+  #txtarea{
+      margin-left: 50px;
+
+  }
+
